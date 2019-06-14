@@ -1,0 +1,33 @@
+body {
+	width: 100%;
+	margin: 0%;
+	font-family: sans-serif;
+}
+
+/* ==================================================================
+						Navigation Style, bro
+   ================================================================== */
+
+section.home {
+    background: url(../images/homebg.png) no-repeat top center #141315;
+    background-size: cover;
+    position: relative;
+    padding-top: 80px;
+}
+
+.home-content h1 {
+	color: aqua;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.home-content p {
+	color: white;
+	padding: 50px;
+	margin-bottom: 150px;
+}
+
+.nav-link {
+	color: ;
+	font-size: 20px;
+}
