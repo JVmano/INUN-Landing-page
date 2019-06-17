@@ -1,13 +1,29 @@
-body {
+body, html {
 	width: 100%;
 	margin: 0%;
-	font-family: sans-serif;
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
 /* ==================================================================
 						Navigation Style, bro
    ================================================================== */
+.bg-nav {
+	background: transparent !important;
+	transition: 500ms ease;
+}
+
+.bg-nav.scrolled {
+	background-color: #343a40 !important;
+}
+
+.nav-link {
+	color: gray;
+}
+
+.nav-link:hover {
+	color: aqua;
+}
 
 section.home {
     background: url(../images/homebg.png) no-repeat top center #141315;
@@ -16,17 +32,23 @@ section.home {
     padding-top: 80px;
 }
 
+.home-content {
+	padding: 170px 20px 170px 20px;
+	margin-top: 40px;
+	margin-bottom: 90px;
+}
+
 .home-content h1 {
 	color: aqua;
 	text-align: center;
-	margin-top: 70px;
 	text-transform: uppercase;
+	padding-bottom: 25px;
 }
 
 .home-content p {
 	color: white;
-	padding: 50px;
-	margin-bottom: 150px;
+	margin-right: 180px;
+	margin-left: 180px;
 }
 
 .nav-link {
@@ -34,13 +56,36 @@ section.home {
 	font-size: 20px;
 }
 
-.main_about_text {
-	color: white;
-	text-align: center;
-	margin-top: 40px;
-	margin-bottom: 20px;
+section.about {
+	background-color: black;
 }
 
-.about_text h1 {
-	margin-bottom: 10px;
+.main_about_text {
+	color: white;
+	background: url(../images/headingbg.png) no-repeat top center;
+    width: 323px;
+    height: 220px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about_text {
+	margin-left: 109px;
+	padding: 30px;
+}
+
+.about_text h4 {
+	margin-bottom: 30px;
+	color: #8e8e8e;
+}
+
+.about_text p {
+	color: #c3c5c9;
+}
+
+.about_image {
+	border-style: solid;
+	border-color: white;
+	border-width: 10px;
+	padding: 20px;
 }

@@ -14,17 +14,16 @@
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Icon -->
-    <link rel="icon" href="src/images/icon/favicon.ico">
+    <!-- Responsive config -->
+    <link href="src/css/responsive.css" rel="stylesheet" media="all">
 
 </head>
 
 <header>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+	<nav class="navbar navbar-expand-lg fixed-top bg-nav">
 		  <a class="navbar-brand" href="index.html">
-		    <img src="src\images\INUN_logo.png" width="180" alt="LOGO">
+		    <img src="src\images\INUN_logo.png" width="200" alt="LOGO">
 		  </a>
-		  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoadicional" aria-controls="conteudoadicional" aria-expanded="false" aria-label="Alterna navegação">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
@@ -49,23 +48,12 @@
 		      <li class="nav-item">
 		        <a class="nav-link" href="#">Contato</a>
 		      </li>
-		      <!-- <li class="nav-item dropdown">
-		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		          Dropdown
-		        </a>
-		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="#">Ação</a>
-		          <a class="dropdown-item" href="#">Outra ação</a>
-		          <div class="dropdown-divider"></div>
-		          <a class="dropdown-item" href="#">Algo mais aqui</a>
-		        </div>
-		      </li> -->
 		    </ul>
 		  </div>
 		</nav>
 </header>
 
-<body style="background-color: black;">
+<body style="background-color: gray;">
 	<!-- Home Section -->
 	<section id="home" class="home">
 		<div class="container">
@@ -80,34 +68,47 @@
 		</div>
 		<!-- end of container -->
 	</section>
-	<!-- end of section -->
+	<!-- end of section home -->
 
 	<section id="about" class="about">
 		<div class="main_about_text">
-			<h1>Sobre</h1>
+			<h1 style="position: relative; top: 30%;">Sobre</h1>
 		</div>
 		<div class="img_and_data_objectives">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-sm-4 col-sm-offset-1">
+					<div class="col-sm-6 col-sm-offset-1">
 						<div class="about_text">
 							<h4>Monitorando Enchentes</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet malesuada mi. In imperdiet mauris sem, vel fringilla arcu pretium quis. Aliquam eu laoreet nisi. Sed aliquet sem in porta feugiat. Cras vitae orci pellentesque, molestie ligula non, sodales eros. Sed quis lacus vestibulum, volutpat neque vitae, egestas sapien. Integer velit ante, porta eu dolor euismod, lobortis ornare diam. Proin congue ante in velit semper tempus.</p>
 						</div>
+						<!-- end of about_text -->
 					</div>
+					<!-- end of col-sm-6 -->
 					<div class="col-sm-6 col-sm-offset-1">
 						<div class="about_image">
 							<img src="src/images/hardware.png" class="img-fluid">
 						</div>
+						<!-- end of about_image -->
 					</div>
+					<!-- end of  col-sm-6 -->
 				</div>
+				<!-- end of row -->
 			</div>
+			<!-- end of container-fluid -->
 		</div>
+		<!-- end of img_and_data_objectives -->
 	</section>
+	<!-- end of section about -->
 
 </body>
 	<!-- Jquery, Popper, bootstrap js -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<!-- Navbar color change on scroll -->
+	<script type="text/javascript">
+		$(window).scroll(function(){$('nav').toggleClass('scrolled', $(this).scrollTop() > 650);});
+	</script>
 </html>
