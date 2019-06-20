@@ -1,17 +1,3 @@
-@media (max-width: 479px) {
-	.home-content p {
-		margin-left: 1px;
-		margin-right: 1px;
-	}
-}
-
-@media (max-width: 768px) {
-	.home-content p {
-		margin-left: 1px;
-		margin-right: 1px;
-	}
-}
-
 @media (max-width: 991px) {
 	.home-content p {
 		margin-left: 1px;
@@ -19,5 +5,12 @@
 	}
 	.about_text {
 		margin-left: 1px;
+	}
+	.description_objectives {
+		margin-left: 12px;
+		margin-right: 12px;
+	}
+	.origin_text {
+	padding: 1px;
 	}
 }

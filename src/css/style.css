@@ -153,3 +153,62 @@ section.objectives {
     text-transform: uppercase;
     text-align: center;
 }
+
+section.origin {
+	background-color: #191919;
+}
+
+.origin_img {
+	border: 10px solid #fff;
+    padding: 60px;
+}
+
+.origin_text {
+	padding: 100px;
+}
+
+.origin_text h3 {
+	color: #4187ba;
+	margin-bottom: 20px;
+}
+
+.origin_text h4 {
+	font-weight: bold;
+	color: gray;
+}
+
+.origin_text p {
+	color: white;
+}
+
+.separator {
+    height: 1px;
+    width: 60px;
+    margin: 10px 0;
+    background-color: #333;
+}
+
+section.waas {
+	background-color: #000;
+}
+
+.waas_main_text h2 {
+	margin-top: 80px;
+	margin-bottom: 10px;
+}
+
+.waas_main_text p {
+	color: white;
+	margin-bottom: 50px;
+}
+
+.waas_main_text h2 {
+	color: #4e91fc;
+}
+
+.waas_images img {
+	border-style: solid;
+	border-color: #4d8ff9;
+	border-width: 5px;
+	padding: 10px;
+}
