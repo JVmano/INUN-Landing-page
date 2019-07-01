@@ -14,3 +14,9 @@
 	padding: 1px;
 	}
 }
+
+@media (max-width: 1280px) {
+	.origin_text {
+		padding: 10px;
+	}
+}

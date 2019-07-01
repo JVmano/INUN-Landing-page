@@ -3,6 +3,11 @@ body, html {
 	margin: 0%;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
+	font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #1c1c1c !important;
 }
 
 /* ==================================================================
@@ -15,15 +20,15 @@ body, html {
 }
 
 .bg-nav.scrolled {
-	background-color: #343a40 !important;
+	background-color: #c1c1c1 !important;
 }
 
-.nav-link {
-	color: gray;
+.navbar-light .navbar-nav .nav-link {
+	color: #fff !important;
 }
 
-.nav-link:hover {
-	color: aqua;
+.navbar-light .navbar-nav:hover .nav-link:hover {
+	color: #00FFFF !important;
 }
 
 section.home {
@@ -40,7 +45,7 @@ section.home {
 }
 
 .home-content h1 {
-	color: aqua;
+	color: #00dcb7;
 	text-align: center;
 	text-transform: uppercase;
 	padding-bottom: 25px;
@@ -53,8 +58,7 @@ section.home {
 }
 
 .nav-link {
-	color: ;
-	font-size: 20px;
+	font-size: 1.3em;
 }
 
 section.about {
@@ -211,4 +215,36 @@ section.waas {
 	border-color: #4d8ff9;
 	border-width: 5px;
 	padding: 10px;
+}
+
+footer {
+	background-color: #1c1c1c;
+}
+
+.footer_title {
+	color: gray;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.footer_list {
+	list-style: none;
+	padding-left: 0;
+	font-size: 1.25rem;
+}
+
+.footer_list a {
+	text-decoration: none;
+	color: lightgray;
+}
+
+.footer_list a:hover {
+	color: aqua;
+	text-decoration: none;
+}
+
+.footer_logotext {
+	color: white;
+	text-transform: uppercase;
+	font-size: 0.8rem;
 }

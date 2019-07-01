@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
 	<title>INUN - Monitorando Enchentes</title>
 	<meta name="author" content="João Vitor de Freitas Melo">
@@ -18,13 +18,10 @@
     <!-- Responsive config -->
     <link href="src/css/responsive.css" rel="stylesheet" media="all">
 
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-
 </head>
 
 <header>
-	<nav class="navbar navbar-expand-lg fixed-top bg-nav navbar-dark">
+	<nav class="navbar navbar-expand-lg fixed-top bg-nav navbar-light">
 		  <a class="navbar-brand" href="index.html">
 		    <img src="src\images\INUN_logo.png" width="200" alt="LOGO">
 		  </a>
@@ -49,22 +46,20 @@
 		      <li class="nav-item">
 		        <a class="nav-link" href="#waas">WAAS</a>
 		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">Contato</a>
-		      </li>
 		    </ul>
 		  </div>
 	</nav>
 </header>
 
-<body style="background-color: gray;">
+<!-- Start of body / Ta olhando o que aqui, bro? -->
+<body class="one above all">
 	<!-- Home section -->
 	<section id="home" class="home">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 home-content">
 					<h1><span style="color: white;">O</span> INUN</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet malesuada mi. In imperdiet mauris sem, vel fringilla arcu pretium quis. Aliquam eu laoreet nisi. Sed aliquet sem in porta feugiat. Cras vitae orci pellentesque, molestie ligula non, sodales eros. Sed quis lacus vestibulum, volutpat neque vitae, egestas sapien. Integer velit ante, porta eu dolor euismod, lobortis ornare diam. Proin congue ante in velit semper tempus.</p>
+					<p>O INUN é um sistema de monitoramento com sensores pluviais e fluviais de baixo custo, e monitoramento meteorológico, com o objetivo de descobrir quando, onde e como as enchentes iram ocorrer. Aliádo a este alerta, armazenamos e utilizamos tais dados para criar parâmetros e padrões de reconhecimento para futuras ocorrencias de enchentes.</p>
 				</div>
 				<!-- end of col-sm-12 -->
 			</div>
@@ -85,7 +80,8 @@
 					<div class="col-sm-6 col-sm-offset-1">
 						<div class="about_text">
 							<h4>Monitorando Enchentes</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet malesuada mi. In imperdiet mauris sem, vel fringilla arcu pretium quis. Aliquam eu laoreet nisi. Sed aliquet sem in porta feugiat. Cras vitae orci pellentesque, molestie ligula non, sodales eros. Sed quis lacus vestibulum, volutpat neque vitae, egestas sapien. Integer velit ante, porta eu dolor euismod, lobortis ornare diam. Proin congue ante in velit semper tempus.</p>
+							<p>Nosso sistema funciona em duas frentes, a coleta de dados metereológicos através de APIs, aliádo aos dados fluviais coletados através de nossos sensores posicionados nas margens dos rios. <br>
+							Com tais dados, utilizamos de um algoritmo para calcular e identificar uma métrica de reconhecimento de enchentes, assim nos possibilitando saber como os rios se comportam antes, durante e depois de uma enchente e também analisar em que época do ano existe uma ocorrencia maior de enchente.</p>
 						</div>
 						<!-- end of about_text -->
 					</div>
@@ -113,43 +109,62 @@
 				<div class="head_title">
 					<h2 style="position: relative; top: 33%;">Objetivos</h2>
 				</div>
+				<!-- end of head_title -->
 				<div class="description_objectives">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet malesuada mi. In imperdiet mauris sem, vel fringilla arcu pretium quis. Aliquam eu laoreet nisi. Sed aliquet sem in porta feugiat. Cras vitae orci pellentesque, molestie ligula non, sodales eros. Sed quis lacus vestibulum, volutpat neque vitae, egestas sapien. Integer velit ante, porta eu dolor euismod, lobortis ornare diam. Proin congue ante in velit semper tempus.</p><br>
+					<p>Todo o sistema visa o auxiliar a COMUNIDADE que sofre com enchentes no Brasil, com o objetivo de alertar quando uma enchente ocorrerá próximo ao morador, para que o mesmo não seja pego de surpresa durante o evento. Assim, auxiliando na diminuição de danos tanto materiais quanto à vida do morador.</p><br>
 				</div>
+				<!-- end of description_objectives -->
 				<div class="col-sm">
 					<div class="objective_class">
 						<div class="objectives_img">
 							<img src="src/images/objectives1.png" class="img-fluid">
 						</div>
+						<!-- end of objectives_img -->
 					</div>
+					<!-- end of objective_class -->
 					<div class="object_text">
 						<p class="object_font">Monitorar</p>
 					</div><br>
+					<!-- end of object_text -->
 			    </div>
+			    <!-- end of col-sm -->
 			    <div class="col-sm">
 					<div class="objective_class">
 						<div class="objectives_img">
 							<img src="src/images/objectives2.png" class="img-fluid">
 						</div>
+						<!-- end of objectives_img -->
 					</div>
+					<!-- end of objective_class -->
 					<div class="object_text">
 						<p class="object_font">Relatar</p>
+						<!-- end of object_font -->
 					</div><br>
+					<!-- end of object_text -->
 			    </div>
+			    <!-- end of col-sm -->
 			    <div class="col-sm">
 					<div class="objective_class">
 						<div class="objectives_img">
 							<img src="src/images/objectives3.png" class="img-fluid">
 						</div>
+						<!-- end of objectives_img -->
 					</div>
+					<!-- end of objective_class -->
 					<div class="object_text">
 						<p class="object_font">Armazenar</p>
 					</div><br>
+					<!-- end of object_text -->
 			    </div>
+			    <!-- end of col-sm -->
 			</div>
+			<!-- end of row -->
 		</div>
+		<!-- end of container -->
 	</section>
+	<!-- end of objectives section -->
 
+	<!-- Origin Section -->
 	<section id="origin" class="origin">
 		<div class="container-fluid">
 			<div class="row">
@@ -157,19 +172,27 @@
 					<div class="origin_img">
 						<img src="src/images/carterada.jpg" class="img-fluid">
 					</div>
+					<!-- end of origin_img -->
 				</div>
+				<!-- end of col-sm-6 -->
 				<div class="col-sm-5 col-sm-offset-1">
 					<div class="origin_text">
 						<h4>Onde tudo começou...</h4>
 						<div class="separator"></div>
 						<h3>Origem</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet malesuada mi. In imperdiet mauris sem, vel fringilla arcu pretium quis. Aliquam eu laoreet nisi. Sed aliquet sem in porta feugiat. Cras vitae orci pellentesque, molestie ligula non, sodales eros. Sed quis lacus vestibulum, volutpat neque vitae, egestas sapien. Integer velit ante, porta eu dolor euismod, lobortis ornare diam. Proin congue ante in velit semper tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet malesuada mi. In imperdiet mauris sem, vel fringilla arcu pretium quis. Aliquam eu laoreet nisi. Sed aliquet sem in porta feugiat. Cras vitae orci pellentesque, molestie ligula non, sodales eros. Sed quis lacus vestibulum, volutpat neque vitae, egestas sapien. Integer velit ante, porta eu dolor euismod, lobortis ornare diam. Proin congue ante in velit semper tempus.</p>
+						<p>A Inun surgiu após uma grande enchente na Vila Barigui, em Curitiba PR, fundada por Raul Guedes Carlessi e João Vitor de Freitas Melo, o conceito Inun surgiu dentro de um instituto que promove soluções para comunidades em situações desprivilegiadas, chamado WAAS, logo após 1 ano de estudos da situação das enchentes e enxurradas no Brasil, a Inun sai da pequena Vila Barigui com o objetivo de ajudar todo o país com os problemas.</p>
 					</div>
+					<!-- end of origin_text -->
 				</div>
+				<!-- end of col-sm-5 col-sm-offset-1 -->
 			</div>
+			<!-- end of row -->
 		</div>
+		<!-- end of container-fluid -->
 	</section>
+	<!-- end of origin section -->
 
+	<!-- WAAS section -->
 	<section id="waas" class="waas">
 		<div class="container">
 			<div class="row">
@@ -177,11 +200,13 @@
 					<div class="col-sm-12">
 						<div class="waas_main_text">
 							<h2>We are all smart</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet malesuada mi. In imperdiet mauris sem, vel fringilla arcu pretium quis. Aliquam eu laoreet nisi. Sed aliquet sem in porta feugiat. Cras vitae orci pellentesque, molestie ligula non, sodales eros. Sed quis lacus vestibulum, volutpat neque vitae, egestas sapien. Integer velit ante, porta eu dolor euismod, lobortis ornare diam. Proin congue ante in velit semper tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> 
+							<p>A WAAS é uma ONG que empodera jovens a serem protagonistas de seu próprio futuro, atuando em escolas públicas das periferías de Curitiba e Campinas. Ensinando tecnologia à jovens que nunca tiveram acesso a tais informações. Assim, criando pensadores dispostos a serem impactantes em suas comunidades, resolvendo e auxiliando em problemas com tecnologia.</p> 
 							<a href="https://waas.ninja/">
 							<button type="button" class="btn btn-outline-primary" style="margin-bottom: 50px;">Mais informações</button></a>
 						</div>
+						<!-- end of waas_main_text -->
 					</div>
+					<!-- end of col-sm-12 -->
 					<div class="waas_images">
 						<!--Grid row-->
 					    <div class="row">
@@ -189,62 +214,138 @@
 					      <!--Grid column-->
 					      <div class="col-lg-4 col-md-12 mb-4">
 
-					        <img src="src/images/3.jpg" class="img-fluid mb-4" alt="">
+					        <a href="https://www.facebook.com/waas.ninja/photos/a.1562690314045332/2202769413370749/?type=3&theater"><img src="src/images/3.jpg" class="img-fluid mb-4" alt=""></a>
 
-					        <img src="src/images/4.jpg" class="img-fluid mb-4" alt=""
-					          data-wow-delay="0.3s">
+					        <a href="https://www.facebook.com/waas.ninja/photos/a.2088886714759020/2206600456320978/?type=3&theater"><img src="src/images/4.jpg" class="img-fluid mb-4" alt=""
+					          data-wow-delay="0.3s"></a>
 
 					      </div>
-					      <!--Grid column-->
+					      <!-- end of Grid column -->
 
 					      <!--Grid column-->
 					      <div class="col-lg-4 col-md-6 mb-4">
 
-					        <img src="src/images/1.jpg" class="img-fluid mb-4" alt=""
-					          data-wow-delay="0.1s">
+					        <a href="https://www.facebook.com/waas.ninja/photos/a.1551491738498523/2064436100537415/?type=3&theater"><img src="src/images/1.jpg" class="img-fluid mb-4" alt=""
+					          data-wow-delay="0.1s"></a>
 
-					        <img src="src/images/2.jpg" class="img-fluid mb-4" alt=""
-					          data-wow-delay="0.4s">
+					        <a href="https://www.facebook.com/waas.ninja/photos/a.1563205713993792/2202754583372232/?type=3&theater"><img src="src/images/2.jpg" class="img-fluid mb-4" alt=""
+					          data-wow-delay="0.4s"></a>
 
-					        <img src="src/images/8.png" class="img-fluid mb-4" alt=""
-					          data-wow-delay="0.4s">
+					        <a href="https://www.facebook.com/waas.ninja/photos/a.1563205713993792/1933731446941215/?type=3&theater"><img src="src/images/8.png" class="img-fluid mb-4" alt=""
+					          data-wow-delay="0.4s"></a>
 
 					      </div>
-					      <!--Grid column-->
+					      <!-- end of Grid column -->
 
 					      <!--Grid column-->
 					      <div class="col-lg-4 col-md-6 mb-4">
 
-					        <img src="src/images/5.jpg" class="img-fluid mb-4" alt=""
-					          data-wow-delay="0.2s">
+					        <a href="https://www.facebook.com/waas.ninja/photos/a.2088886714759020/2233896373591386/?type=3&theater"><img src="src/images/5.jpg" class="img-fluid mb-4" alt=""
+					          data-wow-delay="0.2s"></a>
 
-					        <img src="src/images/6.jpg" class="img-fluid mb-4" alt=""
-					          data-wow-delay="0.5s">
+					        <a href="https://www.facebook.com/waas.ninja/photos/a.2088886714759020/2228614867452870/?type=3&theater"><img src="src/images/6.jpg" class="img-fluid mb-4" alt=""
+					          data-wow-delay="0.5s"></a>
 
 					      </div>
-					      <!--Grid column-->
+					      <!--end of Grid column -->
 
 					    </div>
-					    <!--Grid row-->
+					    <!--end of Grid row -->
 					</div>	
+					<!-- end of waas_images -->
 				</div>
+				<!-- end of waas_area -->
 			</div>
+			<!-- end of row -->
 		</div>
+		<!-- end of container -->
 	</section>
+	<!-- end of waas section -->
+
+	<!-- Footer -->
+	<footer class="end_of_all_things">
+		<div class="container">
+			<div class="row d-flex justify-content-around flex-wrap flex-column flex-sm-column flex-md-row my-4">
+				<div class="order-sm-1 pt-4 text-center text-sm-left">
+					<h4 class="footer_title">Contato</h4>
+					<div class="container">
+						<div class="footer_contact">
+							<address>
+								<ul class="footer_list">
+									<li>
+										<a href="mailto:joão@inun.dev">joão@inun.dev</a>
+									</li>
+									<li>
+										<a href="mailto:raul@inun.dev">raul@inun.dev</a>
+									</li>
+								</ul>
+								<!-- end of footer_list -->
+							</address>
+							<!-- end of address -->
+						</div>
+						<!-- end of footer_contact -->
+					</div>
+					<!-- end of container -->
+				</div>
+				<!-- end of order-sm-1 pt-4 text-center text-sm-left -->
+				<div class="order-sm-1 pt-4 text-center text-sm-left">
+					<h4 class="footer_title">Menu</h4>
+					<div class="footer_menu container">
+						<ul class="footer_list">
+							<li>
+								<a href="#home">Início</a>
+							</li>
+							<li>
+								<a href="#about">Sobre</a>
+							</li>
+							<li>
+								<a href="#objectives">Objetivos</a>
+							</li>
+							<li>
+								<a href="#origin">Origem</a>
+							</li>
+							<li>
+								<a href="#waas">WAAS</a>
+							</li>
+						</ul>
+						<!-- end of footer_list -->
+					</div>
+					<!-- end of footer_menu -->
+				</div>
+				<!-- end of order-sm-1 pt-4 text-center text-sm-left -->
+				<div class="order-sm-1 pt-4 text-center text-sm-left">
+					<h4 class="footer_title">Social</h4>
+					<div class="footer_social">
+						<ul class="footer_list">
+							<a href="https://www.instagram.com/inun.dev/"><li>Instagram</li></a>
+						</ul>
+					</div>
+					<!-- end of footer_social -->
+				</div>
+				<!-- end of order-sm-1 pt-4 text-center text-sm-left -->
+				<div class="order-sm-0 order-md-4 pt-4 text-center">
+					<div class="container">
+						<img src="src\images\INUN_logo.png" width="200">
+						<p class="footer_logotext">Monitorando Enchentes</p>
+					</div>
+					<!-- end of container -->
+				</div> 
+				<!-- end of order-sm-0 order-md-4 pt-4 text-center -->
+			</div>
+			<!-- end of row d-flex justify-content-around flex-wrap flex-column flex-sm-column flex-md-row my-4 -->
+		</div>
+		<!-- end of container -->
+	</footer>
+	<!-- end of footer -->
 
 	<!-- Jquery, Popper, bootstrap js -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-	<!-- Navbar color change on scroll -->
-	<script type="text/javascript">
-		$(window).scroll(function(){$('nav').toggleClass('scrolled', $(this).scrollTop() > 650);});
-
-		$(".img-fluid").addClass("wow fadeIn z-depth-1-half");
-
-    	new WOW().init();
-	</script>
+	<!-- main script -->
+	<script type="text/javascript" src="src/js/inun_script.js"></script>
 
 </body>
+<!-- end of body / Tem mais nada para você não -->
 </html>
