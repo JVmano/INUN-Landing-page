@@ -1,7 +1,9 @@
 # INUN - Lading Page
 
 Template da landing page da projeto do INUN criada por João Vitor de Freitas Melo.
+
 O template está sendo atualizado com o tempo, porém, sua versão atual já pode ser lançada.
+
 Versão Inicial 1.4
 
 # O que é o projeto INUN ?
