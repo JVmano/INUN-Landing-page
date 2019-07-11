@@ -11,12 +11,36 @@
 		margin-right: 12px;
 	}
 	.origin_text {
-	padding: 1px;
+		padding: 1px;
 	}
 }
 
 @media (max-width: 1280px) {
 	.origin_text {
 		padding: 10px;
+	}
+}
+
+@media (max-width: 530px) {
+	.home-content h1 {
+		font-size: 2em;
+	}
+}
+
+@media (max-width: 640px) {
+	.home-content h1 {
+		font-size: 4em;
+	}
+}
+
+@media (max-width: 828px) {
+	.home-content h1 {
+		font-size: 4em;
+	}
+}
+
+@media (max-width: 360px) {
+	.home-content h1 {
+		font-size: 2em;
 	}
 }
