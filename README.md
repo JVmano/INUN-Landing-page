@@ -2,9 +2,7 @@
 
 Template da landing page da projeto do INUN criada por João Vitor de Freitas Melo.
 
-O template está sendo atualizado com o tempo, porém, sua versão atual já foi lançada.
-
-Mais detalhes: http://www.inun.dev
+O template está sendo atualizado com o tempo, porém, sua versão provisória já foi lançada.
 
 Versão Inicial 1.4.2
 
