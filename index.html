@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-	
-	<title>INUN - Monitorando Enchentes</title>
+
+	<title>Landing page - Hardware</title>
 	<meta name="author" content="João Vitor de Freitas Melo">
 
     <!-- Required meta tags-->
@@ -11,260 +11,147 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     <!-- Main CSS -->
-    <link href="src/css/style.css" rel="stylesheet" media="all">
-  
-    <!-- Bootstrap CSS-->
+	<link rel="stylesheet" type="text/css" href="vendor/css/index.css">
+
+	<!-- Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Responsive config -->
-    <link href="src/css/responsive.css" rel="stylesheet" media="all">
+    <!-- Hamburger CSS -->
+	<link href="vendor/css/hamburgers.css" rel="stylesheet">
+
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" type="text/css" href="vendor/css/responsive.css">
 
 </head>
 
 <header>
-	<nav class="navbar navbar-expand-lg fixed-top bg-nav navbar-light">
-		  <a class="navbar-brand" href="index.html">
-		    <img src="src\images\INUN_logo.png" width="200" alt="LOGO">
-		  </a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoadicional" aria-controls="conteudoadicional" aria-expanded="false" aria-label="Alterna navegação">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
 
-		  <div class="collapse navbar-collapse" id="conteudoadicional">
-		    <ul class="navbar-nav mr-auto">
-		      <li class="nav-item">
-		        <a class="nav-link" href="#home">Início <span class="sr-only">(página atual)</span></a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#about">Sobre</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#objectives">Objetivos</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#origin">Origem</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#waas">WAAS</a>
-		      </li>
-		    </ul>
-		  </div>
+	  <div class="hamburger hamburger--3dx"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <div class="hamburger-box">
+	      <div class="hamburger-inner"></div>
+	    </div>
+	  </div>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mx-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#about">O que é?</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#why">Por que?</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#contact">Contato</a>
+	      </li>
+	    </ul>
+	  </div>
 	</nav>
 </header>
 
-<!-- Start of body / Ta olhando o que aqui, bro? -->
-<body class="one above all">
-	<!-- Home section -->
-	<section id="home" class="home">
+<body>
+
+	<!-- Home -->
+	<section class="home" id="home">
+		<div class="container">
+		  <div class="row">
+		    <div class="col home_text">
+		      <h1>HER</h1>
+		      <h1>MES</h1>
+		      <p>Drones não são mais ferramentas de empresas multinacionais. Então po rque se manter apenas em meios de entregas comuns quando se pode ser melhor?</p>
+		      <!-- redes sociais -->
+			    <div class="redes"> 
+			    	<a href="http://facebook.com/" target="_blank">
+			    		<img src="vendor/assets/images/facebook.png" width="20">
+			    	</a>
+			    	<a href="http://instagram.com/" target="_blank">
+			    		<img src="vendor/assets/images/instagram.png" width="20">
+			    	</a>
+			    	<a href="http://github.com/" target="_blank">
+			    		<img src="vendor/assets/images/github.png" width="20">
+			    	</a>
+			    </div>
+		    </div>
+		    <div class="col-8 home_image">
+		      <img src="vendor/assets/images/drone.png" class="img-fluid float-right" width="550">
+		    </div>
+		  </div>
+		</div>
+	</section>
+	<!-- /Home -->
+
+	<!-- about -->
+	<section class="about" id="about">
+		<div class="container">
+		  <div class="row">
+		    <div class="col-8">
+		      <img src="vendor/assets/images/drone_about.png" class="img-fluid drone_about float-left" width="650">
+		    </div>
+		    <div class="col">
+		      <h1>O que é?</h1>
+		      <p>O Sistema Hermes é um serviço de disponibilização de drones para toda e qualquer empresa que precise enviar algum tipo de produto para seus clientes. Nós fonecemos uma plataforma onde a empresa pode organizar, acoplar e enviar seus produtos para qualquer lugar da sua cidade. <br> Com uma alta disponibilidade de drones, podemos oferecer suporte para a grande massa de lojas, mercados, distribuidoras, etc.</p>
+		    </div>
+		  </div>
+		</div>
+	</section>
+	<!-- /about -->
+
+	<!-- why -->
+	<section class="why" id="why">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12 home-content">
-					<span><h1>Monitorando<br> Enchentes</h1></span>
-					<p>O INUN é um sistema de monitoramento com sensores pluviais e fluviais de baixo custo, e monitoramento meteorológico, com o objetivo de descobrir quando, onde e como as enchentes iram ocorrer. Aliado a este alerta, armazenamos e utilizamos tais dados para criar parâmetros e padrões de reconhecimento para futuras ocorrencias de enchentes.</p>
+				<div class="col">
+					<h1>Por que?</h1>
+					<p>Acreditamos que a tecnologia é para para todos, com esta ideia que criamos este projeto, para exibir, incentivar e impactar todos, através da tecnologia, de formas que alguns julgariam pouco provaveis. Aliádo a tais ideias, nosso lema é "A tecnologia só é um avanço para a humanidade, quando auxilia todos no seu dia-a-dia". <br> Sendo assim, utilizamos dos serviços dos drones para aumentar a produtividade de qualquer instituição econômica, melhorando a condição e produtividade de todos.</p>
 				</div>
-				<!-- end of col-sm-12 -->
-			</div>
-			<!-- end of row -->
-		</div>
-		<!-- end of container -->
-	</section>
-	<!-- end of home section -->
-
-	<!-- About section -->
-	<section id="about" class="about">
-		<div class="img_and_data_objectives">
-			<div class="container-fluid">
-				<div class="main_about_text">
-					<h1 style="position: relative; top: 30%;">Sobre</h1>
+				<div class="col-8">
+					<img src="vendor/assets/images/why.png" width="550" class="img-fluid float-right">
 				</div>
-				<div class="row">
-					<div class="col-sm-6 col-sm-offset-1">
-						<div class="about_text">
-							<h4>Monitorando Enchentes</h4>
-							<p>Nosso sistema funciona em duas frentes, a coleta de dados metereológicos através de APIs, aliádo aos dados fluviais coletados através de nossos sensores posicionados nas margens dos rios. <br>
-							Com tais dados, utilizamos de um algoritmo para calcular e identificar uma métrica de reconhecimento de enchentes, assim nos possibilitando saber como os rios se comportam antes, durante e depois de uma enchente e também analisar em que época do ano existe uma ocorrencia maior de enchente.</p>
-						</div>
-						<!-- end of about_text -->
-					</div>
-					<!-- end of col-sm-6 -->
-					<div class="col-sm-6 col-sm-offset-1">
-						<div class="about_image">
-							<img src="src/images/hardware.png" class="img-fluid">
-						</div>
-						<!-- end of about_image -->
-					</div>
-					<!-- end of  col-sm-6 -->
-				</div><br>
-				<!-- end of row -->
-			</div>
-			<!-- end of container-fluid -->
+			</div>			
 		</div>
-		<!-- end of img_and_data_objectives -->
 	</section>
-	<!-- end of about section -->
+	<!-- /why -->
+	
+	<section class="contact" id="contact">
+		<h1 align="center">Contato</h1>
+		<div class="contact_map">
+			<!-- embed maps -->
+			<div style="overflow:hidden;position: relative;"><iframe width="2000" height="440" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=R.%20Bras%C3%ADlio%20Itiber%C3%AA%2C%201849-1801%20-%20Jardim%20Bot%C3%A2nico%2C%20Curitiba%20-%20PR%2C%2082590-300+(hermes)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/it/">https://embedgooglemaps.com/it/</a> & <a href="https://rechargevodafone.co.uk">https://rechargevodafone.co.uk/vodafone-balance-check/</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
+		</div>
 
-	<!-- Objectives section -->
-	<section id="objectives" class="objectives">
 		<div class="container">
 			<div class="row">
-				<div class="head_title">
-					<h2 style="position: relative; top: 33%;">Objetivos</h2>
+				<div class="col float-right contact_texts">
+					<img src="vendor/assets/images/maps.png" class="img-fluid float-left" width="20">
+					<address>R. Brasílio Itiberê, 1849 - Jardim Botânico Curitiba - PR 82590-300</address>
+					<img src="vendor/assets/images/phone.png" class="img-fluid float-left" width="20">
+					<p class="phone">41 9 7532 0912</p>
 				</div>
-				<!-- end of head_title -->
-				<div class="description_objectives">
-					<p>Todo o sistema visa auxiliar as COMUNIDADES que sofre com enchentes no Brasil, o objetivo principal é alertar quando uma enchente ocorrerá próximo ao morador, para criar uma cultura de prevenção no Brasil.<br>
-					Assim, auxiliando na diminuição de danos materiais e emocionais do país.</p><br>
+				<div class="col-7">
+					<form>
+						<div class="form-group">
+						    <label for="nome">Nome:</label>
+						    <input type="text" class="form-control" id="nome" placeholder="Nome">
+						</div>
+						<div class="form-group">
+						 	<label for="email">Email:</label>
+						 	<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Seu email">
+						</div>
+						<div class="form-group">
+						 	<label for="msg">Mensagem:</label>
+						 	<input type="msg" class="form-control" id="msg" aria-describedby="emailHelp" placeholder="Mensagem">
+						</div>
+						  <button type="button" class="btn btn-outline-success btn-lg btn-block">Enviar</button> <br>
+					</form>
 				</div>
-				<!-- end of description_objectives -->
-				<div class="col-sm">
-					<div class="objective_class">
-						<div class="objectives_img">
-							<img src="src/images/objectives1.png" class="img-fluid">
-						</div>
-						<!-- end of objectives_img -->
-					</div>
-					<!-- end of objective_class -->
-					<div class="object_text">
-						<p class="object_font">Monitorar</p>
-					</div><br>
-					<!-- end of object_text -->
-			    </div>
-			    <!-- end of col-sm -->
-			    <div class="col-sm">
-					<div class="objective_class">
-						<div class="objectives_img">
-							<img src="src/images/objectives2.png" class="img-fluid">
-						</div>
-						<!-- end of objectives_img -->
-					</div>
-					<!-- end of objective_class -->
-					<div class="object_text">
-						<p class="object_font">Relatar</p>
-						<!-- end of object_font -->
-					</div><br>
-					<!-- end of object_text -->
-			    </div>
-			    <!-- end of col-sm -->
-			    <div class="col-sm">
-					<div class="objective_class">
-						<div class="objectives_img">
-							<img src="src/images/objectives3.png" class="img-fluid">
-						</div>
-						<!-- end of objectives_img -->
-					</div>
-					<!-- end of objective_class -->
-					<div class="object_text">
-						<p class="object_font">Armazenar</p>
-					</div><br>
-					<!-- end of object_text -->
-			    </div>
-			    <!-- end of col-sm -->
 			</div>
-			<!-- end of row -->
 		</div>
-		<!-- end of container -->
 	</section>
-	<!-- end of objectives section -->
 
-	<!-- Origin Section -->
-	<section id="origin" class="origin">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-6" style="padding: 50px;">
-					<div class="origin_img">
-						<img src="src/images/carterada.jpg" class="img-fluid">
-					</div>
-					<!-- end of origin_img -->
-				</div>
-				<!-- end of col-sm-6 -->
-				<div class="col-sm-5 col-sm-offset-1">
-					<div class="origin_text">
-						<h4>Onde tudo começou...</h4>
-						<div class="separator"></div>
-						<h3>Origem</h3>
-						<p>A Inun surgiu após uma grande enchente na Vila Barigui, em Curitiba PR, fundada por Raul Guedes Carlessi e João Vitor de Freitas Melo, o conceito Inun surgiu dentro de um instituto que promove soluções para comunidades em situações desprivilegiadas, chamado WAAS, logo após 1 ano de estudos da situação das enchentes e enxurradas no Brasil, a Inun sai da pequena Vila Barigui com o objetivo de ajudar todo o país com os problemas.</p>
-					</div>
-					<!-- end of origin_text -->
-				</div>
-				<!-- end of col-sm-5 col-sm-offset-1 -->
-			</div>
-			<!-- end of row -->
-		</div>
-		<!-- end of container-fluid -->
-	</section>
-	<!-- end of origin section -->
-
-	<!-- WAAS section -->
-	<section id="waas" class="waas">
-		<div class="container">
-			<div class="row">
-				<div class="waas_area">
-					<div class="col-sm-12">
-						<div class="waas_main_text">
-							<h2>We are all smart</h2>
-							<p>A WAAS é uma ONG que empodera jovens a serem protagonistas de seu próprio futuro, atuando em escolas públicas das periferías de Curitiba e Campinas. Ensinando tecnologia à jovens que nunca tiveram acesso a tais informações. Assim, criando pensadores dispostos a serem impactantes em suas comunidades, resolvendo e auxiliando em problemas com tecnologia.</p> 
-							<a href="https://waas.ninja/">
-							<button type="button" class="btn btn-outline-primary" style="margin-bottom: 50px;">Mais informações</button></a>
-						</div>
-						<!-- end of waas_main_text -->
-					</div>
-					<!-- end of col-sm-12 -->
-					<div class="waas_images">
-						<!--Grid row-->
-					    <div class="row">
-
-					      <!--Grid column-->
-					      <div class="col-lg-4 col-md-12 mb-4">
-
-					        <a href="https://www.facebook.com/waas.ninja/photos/a.1562690314045332/2202769413370749/?type=3&theater"><img src="src/images/3.jpg" class="img-fluid mb-4" alt=""></a>
-
-					        <a href="https://www.facebook.com/waas.ninja/photos/a.2088886714759020/2206600456320978/?type=3&theater"><img src="src/images/4.jpg" class="img-fluid mb-4" alt=""
-					          data-wow-delay="0.3s"></a>
-
-					      </div>
-					      <!-- end of Grid column -->
-
-					      <!--Grid column-->
-					      <div class="col-lg-4 col-md-6 mb-4">
-
-					        <a href="https://www.facebook.com/waas.ninja/photos/a.1551491738498523/2064436100537415/?type=3&theater"><img src="src/images/1.jpg" class="img-fluid mb-4" alt=""
-					          data-wow-delay="0.1s"></a>
-
-					        <a href="https://www.facebook.com/waas.ninja/photos/a.1563205713993792/2202754583372232/?type=3&theater"><img src="src/images/2.jpg" class="img-fluid mb-4" alt=""
-					          data-wow-delay="0.4s"></a>
-
-					        <a href="https://www.facebook.com/waas.ninja/photos/a.1563205713993792/1933731446941215/?type=3&theater"><img src="src/images/8.png" class="img-fluid mb-4" alt=""
-					          data-wow-delay="0.4s"></a>
-
-					      </div>
-					      <!-- end of Grid column -->
-
-					      <!--Grid column-->
-					      <div class="col-lg-4 col-md-6 mb-4">
-
-					        <a href="https://www.facebook.com/waas.ninja/photos/a.2088886714759020/2233896373591386/?type=3&theater"><img src="src/images/5.jpg" class="img-fluid mb-4" alt=""
-					          data-wow-delay="0.2s"></a>
-
-					        <a href="https://www.facebook.com/waas.ninja/photos/a.2088886714759020/2228614867452870/?type=3&theater"><img src="src/images/6.jpg" class="img-fluid mb-4" alt=""
-					          data-wow-delay="0.5s"></a>
-
-					      </div>
-					      <!--end of Grid column -->
-
-					    </div>
-					    <!--end of Grid row -->
-					</div>	
-					<!-- end of waas_images -->
-				</div>
-				<!-- end of waas_area -->
-			</div>
-			<!-- end of row -->
-		</div>
-		<!-- end of container -->
-	</section>
-	<!-- end of waas section -->
-
-	<!-- Footer -->
 	<footer class="end_of_all_things">
 		<div class="container">
 			<div class="row d-flex justify-content-around flex-wrap flex-column flex-sm-column flex-md-row my-4">
@@ -275,10 +162,7 @@
 							<address>
 								<ul class="footer_list">
 									<li>
-										<a href="mailto:joão@inun.dev">joão@inun.dev</a>
-									</li>
-									<li>
-										<a href="mailto:raul@inun.dev">raul@inun.dev</a>
+										<a href="mailto:contato@hermes.sys">contato@hermes.sys</a>
 									</li>
 								</ul>
 								<!-- end of footer_list -->
@@ -301,13 +185,10 @@
 								<a href="#about">Sobre</a>
 							</li>
 							<li>
-								<a href="#objectives">Objetivos</a>
+								<a href="#why">Por que?</a>
 							</li>
 							<li>
-								<a href="#origin">Origem</a>
-							</li>
-							<li>
-								<a href="#waas">WAAS</a>
+								<a href="#contact">Contato</a>
 							</li>
 						</ul>
 						<!-- end of footer_list -->
@@ -319,7 +200,7 @@
 					<h4 class="footer_title">Social</h4>
 					<div class="footer_social">
 						<ul class="footer_list">
-							<a href="https://www.instagram.com/inun.dev/"><li>Instagram</li></a>
+							<a href="https://www.instagram.com/"><li>Instagram</li></a>
 						</ul>
 					</div>
 					<!-- end of footer_social -->
@@ -327,8 +208,8 @@
 				<!-- end of order-sm-1 pt-4 text-center text-sm-left -->
 				<div class="order-sm-0 order-md-4 pt-4 text-center">
 					<div class="container">
-						<img src="src\images\INUN_logo.png" width="200">
-						<p class="footer_logotext">Monitorando Enchentes</p>
+						<img src="src\images\logo.png" width="200">
+						<p class="footer_logotext">Drone Delivery</p>
 					</div>
 					<!-- end of container -->
 				</div> 
@@ -340,14 +221,23 @@
 	</footer>
 	<!-- end of footer -->
 
-	<!-- Jquery, Popper, bootstrap js -->
+	<!-- Jquery, Poopep and Bootstrap.min.js -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-	<!-- main script -->
-	<script type="text/javascript" src="src/js/inun_script.js"></script>
+	<script>
+	  var forEach=function(t,o,r){if("[object Object]"===Object.prototype.toString.call(t))for(var c in t)Object.prototype.hasOwnProperty.call(t,c)&&o.call(r,t[c],c,t);else for(var e=0,l=t.length;l>e;e++)o.call(r,t[e],e,t)};
+
+	  var hamburgers = document.querySelectorAll(".hamburger");
+	  if (hamburgers.length > 0) {
+	    forEach(hamburgers, function(hamburger) {
+	      hamburger.addEventListener("click", function() {
+	        this.classList.toggle("is-active");
+	      }, false);
+	    });
+	  }
+	</script>
 
 </body>
-<!-- end of body / Tem mais nada para você não -->
 </html>
