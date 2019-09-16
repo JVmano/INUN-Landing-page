@@ -36,6 +36,7 @@ section.home {
     background-size: cover;
     position: relative;
     padding-top: 80px;
+    background-attachment: fixed;
 }
 
 .home-content {
@@ -113,6 +114,7 @@ section.about {
 
 section.objectives {
 	background: url(../images/objectivesbg.jpg) no-repeat center center;
+	background-attachment: fixed;
     background-size: cover;
 }
 
